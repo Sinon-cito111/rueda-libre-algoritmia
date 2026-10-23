@@ -28,4 +28,30 @@ orden:el orden estaba bien
 determinismo: no, ya que se empieza desde una pagina web y se termina pedaleando
 efectividad:  el anterior no era efectivo ya que tenia pasos muy parecidos o q saltaban algo
 
+Entrada (leer)
+nombre del cliente tipo texto
+horas de alquiler tipo numeros 
 
+datos fijos
+precios tipo numeros: 10.000
+
+proceso
+total = horas alquiladas * 10.000
+casco y candado incluidos: no se agrega valor extra
+
+salida
+un mensaje con el nombre del cliente, cuantas horas alquilo y el total
+
+pruebas:
+1 hora; entrada: ¿cual es tu nombre? pepito. ¿cuantas horas de alquiles? 1.
+"hola pepito: tu alquiler de 1 horas cuesta $10000
+ese es el resultado esperado y obtenido
+3 horas; entrada: ¿cual es tu nombre? pepita. ¿cuantas horas de alquiles? 3.
+"hola pepita: tu alquiler de 3 horas cuesta $30000
+ese es el resultado esperado y obtenido
+8 horas; entrada: ¿cual es tu nombre? Eustaquio. ¿cuantas horas de alquiles? 8.
+"hola Eustaquio: tu alquiler de 8 horas cuesta $80000
+ese es el resultado esperado y obtenido
+
+si pongo 0 o un numero negativo sale asi: "Hola, simon: tu alquiler de 0 horas cuesta $0"
+y esto pasa con los negativos: "Hola, simon: tu alquiler de -3 horas cuesta $-30000"
