@@ -58,3 +58,13 @@ y esto pasa con los negativos: "Hola, simon: tu alquiler de -3 horas cuesta $-30
 
 prueba sabores de barrio: para 4 personas este recorrido deberia ser de 240.000 con anticipo de 72.000 y el subtotal de 168.000
 al ejecutar el algoritmo si da el resultado esperado
+
+Valor del alquiler de bicicletas:
+
+    Fórmula: valorAlquiler <- cantidadBicicletas * horasBicicletas * tarifaHora;
+
+    Datos que usa: cantidadBicicletas, horasBicicletas, tarifaHora (constante de $10.000).
+    
+    trunc y redon  se usa para convertir numeros decimales en enteros
+    trunc: elimina la parte decimal del numero, ej: 7.8 lo vuelve 7
+    redon: redondea el numero a la parte entera mas cercana, ej: 7.8 lo vuelve 8

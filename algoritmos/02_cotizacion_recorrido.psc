@@ -28,16 +28,12 @@ Algoritmo CotizacionRecorrido
 		valorTotal <- precioPersona*cantidadPersonas
 		anticipo <- Redon(valorTotal*0.30)
 		saldo <- valorTotal-anticipo
-		Escribir ''
-		Escribir '-----------------------------------'
 		Escribir '         RESUMEN DE PAGO           '
-		Escribir '-----------------------------------'
 		Escribir 'Recorrido: ', nombreRecorrido
 		Escribir 'Precio unitario: $', precioPersona
 		Escribir 'Cantidad de personas: ', cantidadPersonas
 		Escribir 'Valor total: $', valorTotal
 		Escribir 'Anticipo (30%): $', anticipo
-		Escribir 'Saldo pendiente: $', saldo
-		Escribir '-----------------------------------'
+		Escribir 'Saldo pendiente: $', saldo'
 	FinSi
 FinAlgoritmo
