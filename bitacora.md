@@ -55,3 +55,6 @@ ese es el resultado esperado y obtenido
 
 si pongo 0 o un numero negativo sale asi: "Hola, simon: tu alquiler de 0 horas cuesta $0"
 y esto pasa con los negativos: "Hola, simon: tu alquiler de -3 horas cuesta $-30000"
+
+prueba sabores de barrio: para 4 personas este recorrido deberia ser de 240.000 con anticipo de 72.000 y el subtotal de 168.000
+al ejecutar el algoritmo si da el resultado esperado
