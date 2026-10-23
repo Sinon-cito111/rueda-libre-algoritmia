@@ -19,10 +19,10 @@ Este repositorio tiene unos algoritmos hechos en Pseint para automatizar la taqu
 
 1. Descarga e instala [PSeInt](http://pseint.sourceforge.net/).
 2. Clona o descarga este repositorio en tu computadora.
-3. Abre la aplicación **PSeInt**.
-4. En el menú superior, haz clic en **Archivo > Abrir**.
+3. Abre la aplicación PSeInt.
+4. En el menú superior, haz clic en Archivo > Abrir.
 5. Navega hasta la carpeta del proyecto, selecciona el archivo `.psc` que deseas probar (por ejemplo, `algoritmos/03_cuenta_grupo.psc`) y haz clic en Abrir.
-6. Presiona el botón verde de **Ejecutar** (o la tecla `F9`) para simular la taquilla.
+6. Presiona el botón verde de Ejecutar para simular la taquilla.
 
 ---
 Versión: v0.1
